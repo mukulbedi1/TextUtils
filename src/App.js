@@ -2,7 +2,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import TextForm from './components/textForm';
-import About from './components/About';
+// import About from './components/About';
 import React, { useState } from 'react';
 import Alert from './components/Alert';
 // import {
@@ -55,7 +55,7 @@ return (
           <Route path="/" element={<TextForm showAlert = {showAlert} heading = 'Enter the text to analyse below' mode = {mode}/>} />
       </Routes> */}
       <TextForm showAlert = {showAlert} heading = 'Enter the text to analyse below' mode = {mode}/>
-      <About />
+      {/* <About /> */}
       </div>
     {/* </Router> */}
   </>
